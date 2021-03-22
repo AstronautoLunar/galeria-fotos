@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* animation: escurecer 3s; */
+    transition: all 3s;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+div.column {
+    width: 204px;
+}
+
+img {
+    width: 200px;
+    margin: 2px;
+    float: left;
+    animation: aparecer 2s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
